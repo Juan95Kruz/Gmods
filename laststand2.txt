@@ -1,0 +1,179 @@
+"laststand2"
+{
+	"base"		"base"
+	"title"		"Last Stand Kruz"
+	"maps"		"^lst"
+	"menusystem"	"1"
+	
+	"settings"
+	{
+		1
+		{
+			"name"		"lst_minimumplayers"
+			"text"		"Minimum Players"
+			"help"		"Set minimum players to start the round"
+			"type"		"Numeric"
+			"default"	"2"
+		}
+		2
+		{
+			"name"		"lst_time_preparing"
+			"text"		"Preparing time"
+			"help"		"Set preparing time"
+			"type"		"Numeric"
+			"default"	"15"
+		}
+		3
+		{
+			"name"		"lst_time_actionpreparing"
+			"text"		"Action Preparing time"
+			"help"		"Set action preparing time"
+			"type"		"Numeric"
+			"default"	"60"
+		}
+		4
+		{
+			"name"		"lst_time_postround"
+			"text"		"Post time"
+			"help"		"Set post time"
+			"type"		"Numeric"
+			"default"	"15"
+		}
+		5
+		{
+			"name"		"lst_healhealth"
+			"text"		"Passive Heal in zone"
+			"help"		"Heal players health after 5 seconds"
+			"type"		"Numeric"
+			"default"	"0"
+		}
+		6
+		{
+			"name"		"lst_zonespeed"
+			"text"		"Zone Speed"
+			"help"		"Set zone speed"
+			"type"		"Numeric"
+			"default"	"1"
+		}
+		7
+		{
+			"name"		"lst_event_enablenuke"
+			"text"		"Enable nuke event"
+			"help"		"If you dont want to have nuke event, set it to 0"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		8
+		{
+			"name"		"lst_enableimplosion"
+			"text"		"Enable implosion"
+			"help"		"Enable implosion bomb at the end"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		9
+		{
+			"name"		"lst_expscale"
+			"text"		"Exp scale"
+			"help"		"Set exp scale"
+			"type"		"Numeric"
+			"default"	"1"
+		}
+                             10
+		{
+			"name"		"arccw_atts_ubglautoload"
+			"text"		"M203 Ammo on Spawn"
+			"help"		"M203 Ammo on Spawn"
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+                             11
+		{
+			"name"		"arccw_attinv_loseondie"
+			"text"		"Drop Atts if died (0 or 2)"
+			"help"		"0 - Off. 1 - Remove. 2 - Drop all in box."
+			"type"		"Numeric"
+			"default"	"2"
+		}
+                             12
+		{
+			"name"		"arccw_atts_pickx"
+			"text"		"Attachment Limit. 0-10"
+			"help"		"0 - Unlimited. 1-10 - Limits."
+			"type"		"Numeric"
+			"default"	"0"
+		}
+                             13
+		{
+			"name"		"arccw_truenames"
+			"text"		"Real weapon names"
+			"help"		"No."
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+                             14
+		{
+			"name"		"arccw_bullet_enable"
+			"text"		"Physical Bullets"
+			"help"		"Realistic sh8t"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+                             15
+		{
+			"name"		"arccw_override_crosshair_off"
+			"text"		"Disable Crosshairs"
+			"help"		"Realistic sh8t"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+                             16
+		{
+			"name"		"arccw_mult_startunloaded"
+			"text"		"Unloaded Weapons"
+			"help"		"Realistic sh8t"
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+                             17
+		{
+			"name"		"arccw_mult_defaultammo"
+			"text"		"Default Mag Count"
+			"help"		"Realistic sh8t"
+			"type"		"Numeric"
+			"default"	"0"
+		}
+ 		18
+		{
+			"name"		"mp_falldamage"
+			"text"		"Realistic Fall Damage"
+			"help"		"Realistic sh8t"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+                             19
+		{
+			"name"		"lst_airdrop_new"
+			"text"		"Container instead of Airdrop"
+			"help"		"Nope."
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+                20
+                {
+			"name"		"lst_event_thanos_enabled"
+			"text"		"Enable Evento Thanos"
+			"help"		"Enable or disable Evento Thanos"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		21
+		{
+			"name"		"lst_event_thanos_chance"
+			"text"		"Chance for Evento Thanos"
+			"help"		"Percentage chance for Evento Thanos to activate"
+			"type"		"Numeric"
+			"default"	"50"
+		}
+	}
+}
